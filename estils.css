@@ -1,0 +1,67 @@
+/* Estilos personalizados */
+.container {
+    max-width: 1200px;
+  }
+  
+  /* Estilos predefinidos de Tailwind */
+  .bg-blue-500 {
+    background-color: #3b82f6;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .bg-gray-200 {
+    background-color: #edf2f7;
+  }
+  
+  .hover\:bg-gray-300:hover {
+    background-color: #e2e8f0;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .transition-colors {
+    transition-property: background-color;
+  }
+  
+  .duration-300 {
+    transition-duration: 300ms;
+  }
